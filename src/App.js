@@ -6,13 +6,7 @@ import RightCard from "./components/to-do-card/RightCard";
 
 function App() {
 
-  const [todos,setTodos] = useState([{
-    title:"Nitheesh",
-    desc:"Lorem ipsum dolor sit amet consectetur adipisicingtatem laborum asperiores at illo nulla sed. Nobis doloremque, quam ex optio quidem officia libero molestias labore delectus alias! Esse."
-  },{
-    title:"Nitheesh",
-    desc:"Lorem ipsum dolor sit amet consectetur adipisicingtatem laborum asperiores at illo nulla sed. Nobis doloremque, quam ex optio quidem officia libero molestias labore delectus alias! Esse."
-  }])
+  const [todos,setTodos] = useState([])
 
   return (
     <div className="container">
