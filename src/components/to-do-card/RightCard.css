@@ -1,0 +1,18 @@
+.right-card{
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 6px;
+    min-height: 100px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 15px;
+}
+
+.right-row{
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins; 
+}
+p{
+    font-family: Poppins;
+}
