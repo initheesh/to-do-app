@@ -2,7 +2,7 @@
     width: 350px;
     border: 1px solid black;
     border-radius: 6px;
-    min-height: 180px;
+    min-height: 190px;
     background-color: white;
     
     padding: 10px;
@@ -12,7 +12,18 @@
 .right-row{
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
     font-family: Poppins; 
+}
+h2{
+    width: 90%;
+    height: 40px;
+    white-space: nowrap;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+h2::-webkit-scrollbar {
+    display: none;
 }
 p{
     font-family: Poppins;
